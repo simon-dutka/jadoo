@@ -1,10 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Poppins:wght@500;700&family=Volkhov:wght@700&display=swap');
 
 // Fonts
 $openSans: 'Open Sans', sans-serif;
+$volkgov: 'Volkhov', serif;
+$poppins: 'Poppins', sans-serif;
 
 // Colors
+$white: #ffffff;
 $primary: #212832;
+$blueDark: #181e4b;
+$coral: #df6951;
+$grey: #5e6282;
+$yellow: #f1a501;
 
 // Animations
 @keyframes open {
@@ -44,11 +51,11 @@ $primary: #212832;
     }
 }
 
-//RWD 450px, 700px, 1050px, 1400px
+//RWD 450px, 800px, 1200px, 1400px
 $breakpoints: (
     'sm': '28.125rem',
-    'md': '43.75rem',
-    'lg': '65.625rem',
+    'md': '50rem',
+    'lg': '75rem',
     'xl': '87.5rem',
 );
 

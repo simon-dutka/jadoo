@@ -25,3 +25,36 @@ body {
     font-family: $openSans;
     scroll-behavior: smooth;
 }
+
+h1 {
+    color: $blueDark;
+    font-size: 5.25rem;
+    font-weight: 700;
+    font-family: $volkgov;
+    line-height: 5.7rem;
+
+    @include breakpointMax(md) {
+        font-size: 3.8rem;
+        line-height: 4.5rem;
+    }
+
+    @include breakpointMax(sm) {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+}
+
+.decorator {
+    position: absolute;
+    z-index: -1;
+
+    &--first {
+        top: 0;
+        right: 0;
+
+        @include breakpointMax(md) {
+            transform: scale(0.6);
+            transform-origin: top right;
+        }
+    }
+}

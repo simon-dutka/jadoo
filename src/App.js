@@ -5,12 +5,13 @@ import './app.scss';
 import { Navbar } from './components';
 
 // Pages
-import {} from './pages';
+import { Header } from './pages';
 
 const app = () => {
     return (
         <div>
             <Navbar />
+            <Header />
         </div>
     );
 };
