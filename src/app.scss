@@ -30,7 +30,7 @@ h1 {
     color: $blueDark;
     font-size: 5.25rem;
     font-weight: 700;
-    font-family: $volkgov;
+    font-family: $volkhov;
     line-height: 5.7rem;
 
     @include breakpointMax(md) {
@@ -41,6 +41,41 @@ h1 {
     @include breakpointMax(sm) {
         font-size: 3rem;
         line-height: 4rem;
+    }
+}
+
+.category {
+    color: $grey;
+    font-size: 1.125rem;
+    font-weight: 600;
+    font-family: $poppins;
+    text-align: center;
+    line-height: 1.6875rem;
+}
+
+.heading {
+    color: $blueDark;
+    font-size: 3.125rem;
+    font-weight: 700;
+    font-family: $volkhov;
+    line-height: 4rem;
+    text-align: center;
+    text-transform: capitalize;
+
+    @include breakpointMax(md) {
+        font-size: 2.3rem;
+        line-height: 3rem;
+    }
+
+    @include breakpointMax(sm) {
+        font-size: 2rem;
+        line-height: 2.6rem;
+    }
+
+    &-container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.8rem;
     }
 }
 
@@ -55,6 +90,15 @@ h1 {
         @include breakpointMax(md) {
             transform: scale(0.6);
             transform-origin: top right;
+        }
+    }
+
+    &--second {
+        top: 0;
+        right: 4%;
+
+        @include breakpointMax(md) {
+            display: none;
         }
     }
 }
