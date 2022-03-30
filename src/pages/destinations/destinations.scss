@@ -1,0 +1,18 @@
+@import '../../index.scss';
+
+.destinations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 6rem;
+
+    &__card-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 6rem;
+        justify-content: center;
+        position: relative;
+        margin-top: 3.75rem;
+    }
+}

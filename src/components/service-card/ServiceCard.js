@@ -8,10 +8,14 @@ const ServiceCard = ({
     serviceDesc,
 }) => {
     return (
-        <div className='card'>
-            <img className='card__icon' src={serviceIcon} alt={serviceAlt} />
-            <p className='card__title'>{serviceTitle}</p>
-            <p className='card__description'>{serviceDesc}</p>
+        <div className='service-card'>
+            <img
+                className='service-card__icon'
+                src={serviceIcon}
+                alt={serviceAlt}
+            />
+            <p className='service-card__title'>{serviceTitle}</p>
+            <p className='service-card__description'>{serviceDesc}</p>
         </div>
     );
 };
