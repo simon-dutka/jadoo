@@ -5,7 +5,7 @@ import './app.scss';
 import { Navbar } from './components';
 
 // Pages
-import { Header, Services, Destinations } from './pages';
+import { Header, Services, Destinations, Brands } from './pages';
 
 const app = () => {
     return (
@@ -14,6 +14,7 @@ const app = () => {
             <Header />
             <Services />
             <Destinations />
+            <Brands />
         </div>
     );
 };

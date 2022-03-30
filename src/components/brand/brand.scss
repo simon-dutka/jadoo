@@ -1,0 +1,18 @@
+@import '../../index.scss';
+
+.brand {
+    &__element {
+        width: 7.5rem;
+        margin: 4.3rem 3rem;
+        z-index: 2;
+        filter: grayscale(100%);
+
+        @include breakpointMax(lg) {
+            margin: 2.3rem 2.5rem;
+        }
+
+        @include breakpointMax(md) {
+            margin: 1.5rem 2rem;
+        }
+    }
+}
