@@ -14,16 +14,16 @@ const Menu = () => (
     <>
         <ul className='navbar__menu-container'>
             <li className='navbar__menu-element'>
-                <a href='#home'>Desitnations</a>
+                <a href='#destinations'>Destinations</a>
             </li>
             <li className='navbar__menu-element'>
-                <a href='#about'>Hotels</a>
+                <a href='#hotels'>Hotels</a>
             </li>
             <li className='navbar__menu-element'>
-                <a href='#testimonials'>Flights</a>
+                <a href='#Ffights'>Flights</a>
             </li>
             <li className='navbar__menu-element'>
-                <a href='#contact'>Bookings</a>
+                <a href='#bookings'>Bookings</a>
             </li>
         </ul>
     </>
