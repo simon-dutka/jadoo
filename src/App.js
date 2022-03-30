@@ -2,7 +2,7 @@ import React from 'react';
 import './app.scss';
 
 // Components
-import { Navbar } from './components';
+import { Navbar, Footer } from './components';
 
 // Pages
 import { Header, Services, Destinations, Brands, Bookings } from './pages';
@@ -16,6 +16,7 @@ const app = () => {
             <Destinations />
             <Bookings />
             <Brands />
+            <Footer />
         </div>
     );
 };
