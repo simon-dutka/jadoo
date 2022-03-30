@@ -1,0 +1,37 @@
+@import '../../index.scss';
+
+.booking-card {
+    display: flex;
+    flex-direction: row;
+    gap: 1.4rem;
+    align-items: center;
+
+    @include breakpointMax(sm) {
+        flex-direction: column;
+    }
+
+    &__icon {
+        width: 3rem;
+    }
+
+    &__right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title,
+    &__text {
+        color: $grey;
+        font-size: 1rem;
+        font-weight: 700;
+        font-family: $poppins;
+
+        @include breakpointMax(sm) {
+            text-align: center;
+        }
+    }
+
+    &__text {
+        font-weight: 400;
+    }
+}

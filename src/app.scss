@@ -72,6 +72,11 @@ h1 {
         line-height: 2.6rem;
     }
 
+    &--bookings {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
     &-container {
         display: flex;
         flex-direction: column;

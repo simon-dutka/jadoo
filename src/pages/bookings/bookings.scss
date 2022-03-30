@@ -1,0 +1,47 @@
+@import '../../index.scss';
+
+.bookings {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    margin-top: 6rem;
+
+    @include breakpointMax(lg) {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 1rem;
+    }
+
+    &__card-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 55%;
+        row-gap: 3rem;
+        margin: 0 auto;
+        margin-top: 3rem;
+
+        @include breakpointMax(sm) {
+            width: 80%;
+        }
+    }
+
+    &__image {
+        width: 85%;
+
+        @include breakpointMax(lg) {
+            width: 55%;
+        }
+
+        @include breakpointMax(md) {
+            width: 80%;
+            margin-bottom: 2rem;
+        }
+
+        @include breakpointMax(sm) {
+            width: 100%;
+        }
+    }
+}
