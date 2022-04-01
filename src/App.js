@@ -5,7 +5,14 @@ import './app.scss';
 import { Navbar, Footer } from './components';
 
 // Pages
-import { Header, Services, Destinations, Brands, Bookings } from './pages';
+import {
+    Header,
+    Services,
+    Destinations,
+    Brands,
+    Bookings,
+    Testimonials,
+} from './pages';
 
 const app = () => {
     return (
@@ -15,6 +22,7 @@ const app = () => {
             <Services />
             <Destinations />
             <Bookings />
+            <Testimonials />
             <Brands />
             <Footer />
         </div>

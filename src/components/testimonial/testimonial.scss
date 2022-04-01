@@ -1,0 +1,61 @@
+@import '../../index.scss';
+
+.testimonial {
+    max-width: 504px;
+    background: $white;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
+        0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
+        0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
+        0px 20px 13px rgba(0, 0, 0, 0.01),
+        0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
+        0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+    border-radius: 0.625rem;
+    position: relative;
+    padding: 1rem 2rem 2rem 2rem;
+
+    &__image {
+        width: 3rem;
+        top: -1.5rem;
+        left: -1.5rem;
+        position: absolute;
+    }
+
+    &__text {
+        color: $grey;
+        font-size: 1rem;
+        font-weight: 500;
+        font-family: $poppins;
+        line-height: 2rem;
+        padding-bottom: 1.7rem;
+
+        @include breakpointMax(md) {
+            font-size: 0.9rem;
+            line-height: 1.5rem;
+        }
+    }
+
+    &__person {
+        display: flex;
+        flex-direction: column;
+
+        &-name {
+            color: $grey;
+            font-family: $poppins;
+            font-weight: 600;
+            font-size: 1.125rem;
+            line-height: 1.6875rem;
+
+            @include breakpointMax(md) {
+                font-size: 1rem;
+            }
+        }
+
+        &-place {
+            color: $grey;
+            font-family: $poppins;
+            font-weight: 500;
+            font-size: 0.875rem;
+            line-height: 1.3125rem;
+        }
+    }
+}

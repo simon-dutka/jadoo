@@ -1,0 +1,18 @@
+@import '../../index.scss';
+
+.testimonials {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 6rem auto;
+
+    @include breakpointMax(lg) {
+        flex-direction: column;
+        row-gap: 5rem;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: center;
+    }
+}

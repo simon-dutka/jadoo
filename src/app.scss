@@ -51,6 +51,14 @@ h1 {
     font-family: $poppins;
     text-align: center;
     line-height: 1.6875rem;
+
+    &--testimonials {
+        text-align: left;
+
+        @include breakpointMax(lg) {
+            text-align: center;
+        }
+    }
 }
 
 .heading {
@@ -75,6 +83,16 @@ h1 {
     &--bookings {
         max-width: 80%;
         margin: 0 auto;
+    }
+
+    &--testimonials {
+        text-align: left;
+        max-width: 80%;
+
+        @include breakpointMax(lg) {
+            text-align: center;
+            max-width: 100%;
+        }
     }
 
     &-container {
