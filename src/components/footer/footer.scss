@@ -3,10 +3,10 @@
 .footer {
     display: flex;
     flex-direction: column;
-    margin-top: 6rem;
+    margin-top: 10rem;
 
     @include breakpointMax(md) {
-        margin-top: 3rem;
+        margin-top: 6rem;
     }
 
     &-main {
