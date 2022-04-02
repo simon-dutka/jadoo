@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/jadoo/static/css/main.d4beb323.css",
+    "main.js": "/jadoo/static/js/main.2f8411ca.js",
+    "static/media/europe.png": "/jadoo/static/media/europe.9f09e63b26b5f3ba8cf4.png",
+    "static/media/person.png": "/jadoo/static/media/person.4e1f7728ea1636b529f6.png",
+    "static/media/trip.png": "/jadoo/static/media/trip.6866db7b0c4efffd2bf3.png",
+    "static/media/rome.png": "/jadoo/static/media/rome.a2150c8e36b714b5b73e.png",
+    "static/media/london.png": "/jadoo/static/media/london.675b4680ed34c6c5e0a0.png",
+    "static/media/microphone.svg": "/jadoo/static/media/microphone.859adcfdecf44e17169a46c6a68ad044.svg",
+    "static/media/testimonial-person1.png": "/jadoo/static/media/testimonial-person1.bb243bb9268bf2f98983.png",
+    "static/media/expedia.png": "/jadoo/static/media/expedia.b920c9691de0721c81ef.png",
+    "static/media/plane.png": "/jadoo/static/media/plane.155fcb5a6a587a1aecf6.png",
+    "static/media/waterSport.svg": "/jadoo/static/media/waterSport.f693613bae926fe9906c775d25053291.svg",
+    "static/media/appleStore.svg": "/jadoo/static/media/appleStore.588cfb3b335aadee0f826727b7e4ad97.svg",
+    "static/media/googlePlay.svg": "/jadoo/static/media/googlePlay.d2d31a3f2f795f3b914ce71afeabe658.svg",
+    "static/media/taxi.svg": "/jadoo/static/media/taxi.83716c05d06227e677b3b06caaeac64f.svg",
+    "static/media/satellite.svg": "/jadoo/static/media/satellite.0d99d9a53f23f485fde8b3091b8e5497.svg",
+    "static/media/logo.svg": "/jadoo/static/media/logo.d13f53524e0d6c76357d739e7ef62509.svg",
+    "static/media/gear.svg": "/jadoo/static/media/gear.35327be969aca544523538478b239666.svg",
+    "static/media/decorator2.svg": "/jadoo/static/media/decorator2.273fa7a15d2f4a555393c49c9ec0af5b.svg",
+    "static/media/logoFooter.svg": "/jadoo/static/media/logoFooter.35a1a9a8f0e18c82f0d34f36250b3864.svg",
+    "static/media/decorator5.svg": "/jadoo/static/media/decorator5.7e31bb6db3f4b6974dd8a97297c92df8.svg",
+    "static/media/instagram.svg": "/jadoo/static/media/instagram.0fe70e5e1409afd8659cd2710282cd9e.svg",
+    "static/media/twitter.svg": "/jadoo/static/media/twitter.d23edd6d82a81fc378e571eb04d45b7c.svg",
+    "static/media/send.svg": "/jadoo/static/media/send.2842e73e7c9af624be88f84901b15cb2.svg",
+    "static/media/facebook.svg": "/jadoo/static/media/facebook.83cb68ea5b3a9971ace4fd6453d1984c.svg",
+    "static/media/square.svg": "/jadoo/static/media/square.a74fc691b9e3743affa892b333510055.svg",
+    "static/media/decorator6.svg": "/jadoo/static/media/decorator6.79e8d2d07a2254fca88fc58468df1f9e.svg",
+    "index.html": "/jadoo/index.html",
+    "static/media/decorator1.svg": "/jadoo/static/media/decorator1.bfead9df9c52c7c046c02a773e93d79e.svg",
+    "static/media/play.svg": "/jadoo/static/media/play.8f02173f03575ccf8e3fa38d5e7fa47d.svg",
+    "static/media/arrow.svg": "/jadoo/static/media/arrow.486b4225632e8098a980b760813bdc72.svg",
+    "static/media/email.svg": "/jadoo/static/media/email.56058da1f2ed96c18f68b647b2a9fed8.svg",
+    "main.d4beb323.css.map": "/jadoo/static/css/main.d4beb323.css.map",
+    "main.2f8411ca.js.map": "/jadoo/static/js/main.2f8411ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4beb323.css",
+    "static/js/main.2f8411ca.js"
+  ]
+}
