@@ -12,6 +12,7 @@ import {
     Brands,
     Bookings,
     Testimonials,
+    Subscribe,
 } from './pages';
 
 const app = () => {
@@ -24,6 +25,7 @@ const app = () => {
             <Bookings />
             <Testimonials />
             <Brands />
+            <Subscribe />
             <Footer />
         </div>
     );

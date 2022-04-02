@@ -1,0 +1,128 @@
+@import '../../index.scss';
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: $pinkLight;
+    border-radius: 8rem 1.25rem 1.25rem 1.25rem;
+    min-height: 25rem;
+    width: 90%;
+    position: relative;
+    margin: 6rem auto 0 auto;
+
+    @include breakpointMax(md) {
+        border-radius: 4rem 1.25rem 1.25rem 1.25rem;
+    }
+
+    &__heading {
+        color: $grey;
+        font-size: 2rem;
+        font-weight: 600;
+        font-family: $poppins;
+        text-align: center;
+        line-height: 3.375rem;
+
+        z-index: 1;
+        width: 70%;
+        padding: 4.2rem 0 3rem 0;
+
+        @include breakpointMax(md) {
+            font-size: 1.5rem;
+            line-height: 2rem;
+
+            width: 80%;
+            padding: 1rem 0 2rem 0;
+        }
+    }
+
+    &__email {
+        &-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            width: 100%;
+
+            @include breakpointMax(md) {
+                flex-direction: column;
+            }
+
+            @include breakpointMax(sm) {
+                gap: 1rem;
+            }
+        }
+
+        &-form {
+            display: flex;
+            flex-direction: row;
+            background: $white;
+            column-gap: 1rem;
+            width: 26rem;
+            height: 4.25rem;
+            border-radius: 0.625rem;
+            z-index: 1;
+
+            @include breakpointMax(md) {
+                height: 4rem;
+                width: 80%;
+            }
+            @include breakpointMax(sm) {
+                height: 3.6rem;
+                width: 90%;
+            }
+        }
+
+        &-icon {
+            width: 1.3rem;
+            margin-left: 2rem;
+
+            @include breakpointMax(sm) {
+                margin-left: 1rem;
+            }
+        }
+
+        &-input {
+            outline: none;
+            width: 70%;
+            font-family: $openSans;
+            border-radius: 0.625rem;
+
+            &::placeholder {
+                font-family: $openSans;
+            }
+
+            @include breakpointMax(sm) {
+                width: 70%;
+            }
+        }
+
+        &-btn {
+            color: $white;
+            height: 4.25rem;
+            width: 11.25rem;
+            background: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
+            border-radius: 0.625rem;
+
+            @include breakpointMax(md) {
+                height: 4rem;
+            }
+
+            @include breakpointMax(sm) {
+                height: 3.6rem;
+                width: 9em;
+            }
+        }
+    }
+
+    &__send {
+        &-icon {
+            position: absolute;
+            top: -1rem;
+            right: -1.5rem;
+        }
+    }
+}
