@@ -1,5 +1,5 @@
 import React from 'react';
-import './subscribe.scss';
+import '../../styles/pages/subscribe/subscribe.scss';
 
 // Images
 import email from '../../assets/email.svg';

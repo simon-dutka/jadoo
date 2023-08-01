@@ -1,5 +1,5 @@
 import React from 'react';
-import './brands.scss';
+import '../../styles/pages/brands/brands.scss';
 
 // Components
 import Brand from '../../components/brand/Brand';

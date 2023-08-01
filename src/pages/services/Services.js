@@ -1,5 +1,5 @@
 import React from 'react';
-import './services.scss';
+import '../../styles/pages/services/services.scss';
 
 // Components
 import ServiceCard from '../../components/service-card/ServiceCard';

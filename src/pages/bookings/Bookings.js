@@ -1,5 +1,5 @@
 import React from 'react';
-import './bookings.scss';
+import '../../styles/pages/booking/bookings.scss';
 
 // Images
 import trip from '../../assets/trip.png';

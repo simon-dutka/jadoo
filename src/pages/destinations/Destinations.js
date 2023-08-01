@@ -1,5 +1,5 @@
 import React from 'react';
-import './destinations.scss';
+import '../../styles/pages/destinations/destinations.scss';
 
 // Components
 import DestinationCard from '../../components/destination-card/DestinationCard';

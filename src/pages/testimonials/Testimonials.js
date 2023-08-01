@@ -1,5 +1,5 @@
 import React from 'react';
-import './testimonials.scss';
+import '../../styles/pages/testimonials/testimonials.scss';
 
 // Components
 import Testimonial from '../../components/testimonial/Testimonial';

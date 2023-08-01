@@ -1,5 +1,5 @@
 import React from 'react';
-import './header.scss';
+import '../../styles/pages/header/header.scss';
 
 import play from '../../assets/play.svg';
 import person from '../../assets/person.png';
