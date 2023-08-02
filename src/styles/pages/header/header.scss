@@ -5,6 +5,7 @@
     grid-template-columns: 45% 45%;
     place-items: center;
     width: 90%;
+
     margin: 2rem auto 0 auto;
 
     @include breakpointMax(lg) {
@@ -15,12 +16,14 @@
 
     @include breakpointMax(md) {
         width: 85%;
+
         row-gap: 3rem;
     }
 
     &__content {
         display: flex;
         flex-direction: column;
+
         row-gap: 2rem;
         margin-left: 10%;
 
@@ -30,10 +33,10 @@
     }
 
     &__tagline {
-        color: #df6951;
-        font-family: $poppins;
-        font-weight: 700;
+        color: $coral;
         font-size: 1.25rem;
+        font-weight: 700;
+        font-family: $poppins;
         line-height: 1.875rem;
         text-transform: uppercase;
 
@@ -56,16 +59,17 @@
 
     &__btn {
         color: $white;
-        font-family: $openSans;
-        font-weight: 600;
         font-size: 1.125rem;
+        font-weight: 600;
+        font-family: $openSans;
         text-align: center;
         cursor: pointer;
-        border-radius: 10px;
-        box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
-        background: $yellow;
-        min-width: 10.625rem;
+
         height: 3.75rem;
+        min-width: 10.625rem;
+        border-radius: 0.625rem;
+        box-shadow: 0rem 1.25rem 2.1875rem rgba(241, 165, 1, 0.15);
+        background: $yellow;
 
         @include breakpointMax(md) {
             font-size: 1rem;
@@ -75,12 +79,24 @@
         &-container {
             display: flex;
             flex-direction: row;
+
             column-gap: 2.75rem;
 
             @include breakpointMax(md) {
                 flex-direction: column;
                 align-items: center;
+
                 row-gap: 2rem;
+            }
+
+            &--right {
+                width: 100%;
+
+                column-gap: 1.3rem;
+
+                @include breakpointMax(md) {
+                    justify-content: center;
+                }
             }
         }
 
@@ -92,17 +108,6 @@
             cursor: pointer;
 
             background: none;
-
-            &-container {
-                display: flex;
-                flex-direction: row;
-                column-gap: 1.3rem;
-                width: 100%;
-
-                @include breakpointMax(md) {
-                    justify-content: center;
-                }
-            }
         }
     }
 

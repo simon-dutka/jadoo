@@ -27,7 +27,7 @@ const Header = () => {
                         Find out more
                     </button>
 
-                    <div className='header__btn--play-container'>
+                    <div className='header__btn-container header__btn-container--right'>
                         <img src={play} alt='Play button' />
                         <button type='submit' className='header__btn--play'>
                             Play Demo
